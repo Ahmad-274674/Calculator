@@ -1,0 +1,29 @@
+.btn{
+    padding: 7px 4px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-special{
+    background: #0079fc;
+    box-shadow: 0px 0px 5px rgba(0, 89, 255, 0.75);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-spY{
+    background: #ff0000;
+}
+
+.hover:hover{
+    opacity: 0.75;
+    scale: 1.08;
+    box-shadow: 0px 0px 5px var(--night-color);
+}
